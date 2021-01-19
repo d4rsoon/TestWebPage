@@ -4,15 +4,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>MrauAmore</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+  <nav>
+    <ul>
+      <li><a href="#About me">About me</a></td>
+      <li><a href="#ContactInfo">Contact Info</a></td>
+      <li><a href="#MyCats">My Cats</a></td>
+      <li><a href="#MyDogs">My Dogs</a></td>
+    </ul>
+  </nav>
+
+
   <main>
-    <h1>Vanilla JavaScript App</h1>
-    <p>To jest testowy tekst na nową stronę</p>
+    <section id="MyCats">
+      <h2>My Cats</h2>
+      <ul></ul>
+        <li><a href="#YellowCat">Yellow Cat</a></li>
+        <li><a href="#OtherCat">Other Cat</a></li>
+      </ul>
+      <section>
+        <h3>Yellow Cat</h3>
+          <ul>
+            <li><img src="./YellowCat.jpg" width="400px" alt="Yellow cat"></li>
+            <li><img src="./YellowCat2.jpg" width="400px" alt="Yellow cat"></li>
+            <li><img src="./YellowCat3.jpg" width="400px" alt="Yellow cat"></li>
+          </ul>        
+      </section>
+      <section>
+        <table id="OtherCat">
+          <tr>
+            <td>
+              <h3>Other Cat</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./MrauAmore_1.jpg" width="400px" alt="Other cat"></td>
+            <td><img src="./MrauAmore_2.jpg" width="400px" alt="Other cat"></td>
+            <td><img src="./MrauAmore_3.jpg" width="400px" alt="Other cat"></td>
+          </tr>
+        </table>
+      </section>
+    </section>
+
+    <section id="MyDogs">
+      <h2>My Dogs</h2>
+      <section>
+        <table>
+          <tr>
+            <td>
+              <h3>White Dog</h3>
+            </td>
+          </tr>
+          <tr>
+            <td><img src="./WhiteDog.jpg" width="400px" alt="White Dog"></td>
+          </tr>
+        </table>
+      </section>
+
   </main>
+
+  <footer id="ContactInfo">
+    <h2>Contact info:</h2>
+    <p><strong>Phone:</strong> +48 518 786 357<br><strong>Facebook: </strong><a
+        href="https://www.facebook.com/MrauAmore/" target="_blank">MrauAmore Fan Page</a></p>
+    <br><br>
+  </footer>
 </body>
 
 </html>

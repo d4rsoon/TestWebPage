@@ -1,0 +1,52 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #E8D0BC;
+  margin: 0 10rem 0 10rem;
+}
+nav {
+  border: 1px solid #5F5352;
+  padding: 0;
+  position: fixed;
+  margin: 0;
+}
+nav a{
+  text-decoration: none;
+  color: #5F5352;
+  padding: 0.5rem;
+  margin: 0;
+  border: 0px solid red;
+  text-align: center;
+  display: block;
+  
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  width: 8rem;
+  background-color: #E0B79D;
+  border: 1px solid #5F5352;
+  padding: 0rem;
+  margin: 0.3rem;
+  display: inline-block;
+}
+nav a:hover {
+  color: #E0B79D;
+  background-color: #5F5352;
+}
+.MyCats li{
+  display: inline-block;
+}
+.MyCats ul{
+  text-decoration: none;
+}
+
+/* Color Theme Swatches in Hex */
+.color-theme_AirBrush_20201229095945-1-hex { color: #231717; }
+.color-theme_AirBrush_20201229095945-2-hex { color: #E0B79D; }
+.color-theme_AirBrush_20201229095945-3-hex { color: #5F5352; }
+.color-theme_AirBrush_20201229095945-4-hex { color: #DC6D6F; }
+.color-theme_AirBrush_20201229095945-5-hex { color: #E8D0BC; }
+
